@@ -1,0 +1,25 @@
+s="Santosh Gambhava123"
+print(s.count("s"))
+print(s.count("o",5))
+print(s.find("Sa"))
+print(s.lower())
+print(s.upper())
+print(s.title())
+print(s.capitalize())
+print(s.swapcase())
+
+x="xSantosh Gambhava123y"
+print(x.rstrip("y"))
+print(x.lstrip("x"))
+print(s.ljust(50,"*"))
+print(s.rjust(50,"#"))
+print(s.center(50,"*"))
+print(s.split(" "))
+y="santosh Gambhava Rajeshbhai 123"
+print(y.split(" ",2))
+print(s.replace("santosh","Dhara"))
+print(s.isalpha())
+print(s.isalnum())
+print(s.isdigit())
+print(s.isspace())
+print(len(s))
